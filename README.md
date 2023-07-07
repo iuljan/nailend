@@ -4,7 +4,7 @@
 - 🌱 I’m currently learning ... python
 - 💬 Ask me about ... sailing
 - 😄 Pronouns: ... he/him
-- ⚡ Fun fact: ... if it's warm, I like to wear my socks, half-off.
+- ⚡ Fun fact: ... if it's warm, I like to wear my socks half-off.
 
 
 
