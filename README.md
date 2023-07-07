@@ -1,8 +1,8 @@
 # Hi, I am Julian
 
 - 🔭 I’m currently working on ... open source/data research projects
-- 🌱 I’m currently learning ...
-- 💬 Ask me about ... the weather
+- 🌱 I’m currently learning ... python
+- 💬 Ask me about ... sailing
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... if it's warm, I like to wear my socks, half-off.
 
