@@ -9,6 +9,8 @@
 ![GitHub Metrics](github-metrics.svg)
 
 <!--
+# https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md
+
 <a href="https://github.com/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=nailend&repo=convoychat)" />
 </a>
