@@ -1,15 +1,17 @@
-# Hi, I am Julian
+# Hi, I am
 
+![GitHub Metrics](github-metrics.svg)
+<!--
+# https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md
+-->
 - 🔭 I’m currently working on ... open source/data research projects
 - 🌱 I’m currently learning ... python
 - 💬 Ask me about ... sailing
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... if it's warm, I like to wear my socks half-off.
 
-![GitHub Metrics](github-metrics.svg)
 
 <!--
-# https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md
 
 <a href="https://github.com/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=nailend&repo=convoychat)" />
