@@ -6,13 +6,14 @@
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... if it's warm, I like to wear my socks half-off.
 
+![GitHub Metrics](github-metrics.svg)
 
-
+<!--
 <a href="https://github.com/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=nailend&repo=convoychat)" />
 </a>
 
-<!--
+
 <a href="https://github.com/">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nailend&layout=compact&repo=convoychat" />
 </a>
