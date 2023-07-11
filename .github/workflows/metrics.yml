@@ -67,7 +67,7 @@ jobs:
 #           user: nailend
           base: header
           base_indepth: yes
-#           plugin_calendar: yes
-#           plugin_calendar_limit: 3
+          plugin_calendar: yes
+          plugin_calendar_limit: 3
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
