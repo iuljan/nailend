@@ -28,9 +28,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # Options
           user: nailend
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Europe/Berlin
+#           template: classic
+#           base: header, activity, community, repositories, metadata
+#           config_timezone: Europe/Berlin
           #plugin_achievements: yes
           plugin_calendar: yes
           plugin_calendar_limit: 3
