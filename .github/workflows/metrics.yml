@@ -12,33 +12,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Contributions
+      - name: Overview
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: contributions.svg
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
-          token: ${{ secrets.METRICS_TOKEN }}
-          # Options
-          user: nailend
-#           template: classic
-#           base: header, activity, community, repositories, metadata
-#           config_timezone: Europe/Berlin
-          #plugin_achievements: yes
-          plugin_calendar: yes
-          plugin_calendar_limit: 3
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          
-          
-      - name: 
         uses: lowlighter/metrics@latest
         with:
           filename: overview.svg
@@ -56,7 +31,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
-#           token: ${{ secrets.METRICS_TOKEN }}
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
@@ -73,4 +47,25 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          plugin_repositories: yes
+#           plugin_repositories: yes
+          
+      - name: Contributions
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: contributions.svg
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          # The following additional scopes may be required:
+          #  - read:org      (for organization related metrics)
+          #  - read:user     (for user related data)
+          #  - read:packages (for some packages related data)
+          #  - repo          (optional, if you want to include private repositories)
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Options
+          user: nailend
+          plugin_calendar: yes
+          plugin_calendar_limit: 3
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
