@@ -64,7 +64,7 @@ jobs:
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
           # Options
-          user: nailend
+#           user: nailend
           plugin_calendar: yes
           plugin_calendar_limit: 3
           plugin_isocalendar: yes
