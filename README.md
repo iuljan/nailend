@@ -1,8 +1,8 @@
 # Hi, I am
 
 
-<img align="left" src="/overview.svg" alt="Metrics" width="400">
-<img align="right" src="/contributions.svg" alt="Metrics" width="400">
+<img align="left" src="/overview.svg" alt="Metrics" width="350">
+<img align="right" src="/contributions.svg" alt="Metrics" width="350">
 
 <!--
 ![GitHub Metrics](github-metrics.svg)
