@@ -65,7 +65,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # Options
 #           user: nailend
-          base: header
+          base: ""
           base_indepth: yes
           plugin_calendar: yes
           plugin_calendar_limit: 3
